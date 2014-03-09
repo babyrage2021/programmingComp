@@ -27,8 +27,7 @@ int main()
 		{
 			return 0;
 		}
-		
-		//cout << width << " " << ratio << " " << diameter << endl;
+		cin >> width >> slash >> ratio >> con >> diameter;
 		
 		//width = width/10;
 		diameter = diameter*2.54;
