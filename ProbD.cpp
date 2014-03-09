@@ -27,7 +27,6 @@ int main()
 		{
 			return 0;
 		}
-		cin >> width >> slash >> ratio >> con >> diameter;
 		
 		//cout << width << " " << ratio << " " << diameter << endl;
 		
@@ -35,7 +34,7 @@ int main()
 		diameter = diameter*2.54;
 		ratio = ratio/100;
 		
-		cout << width << " " << ratio << " " << diameter << endl;
+		//cout << width << " " << ratio << " " << diameter << endl;
 		
 		total = (((2 * (width * ratio))/10) + diameter);
 		
